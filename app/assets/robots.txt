@@ -1,0 +1,9 @@
+user-agent: *
+allow: /*
+
+user-agent: googlebot*
+disallow: /login/
+disallow /secrets.js
+
+Sitemap: https://www.nodegoat.com/sitemap.xml
+Host: https://www.nodegoat.com

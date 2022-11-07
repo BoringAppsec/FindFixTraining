@@ -108,6 +108,7 @@ The repo includes the Dockerfile and docker-compose.yml necessary to set up the 
    ```
    docker-compose up
    ```
+6) or ./script.sh after step 3 (or if script is not running run chmod +x script.sh)
 
 ### OPTION 3 - Deploy to Heroku
 

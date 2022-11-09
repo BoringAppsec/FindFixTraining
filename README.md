@@ -1,13 +1,5 @@
 #  FindFix Training - Find and fix common security defects in a  Node.js applications
 
-
-##### Default user accounts
-
-The database comes pre-populated with these user accounts created as part of the seed data -
-* Admin Account - u:admin p:Admin_123
-* User Accounts (u:user1 p:User1_123), (u:user2 p:User2_123)
-* New users can also be added using the sign-up page.
-
 ## How to Set Up Your Copy of NodeGoat
 
 ### Run NodeGoat on Docker
@@ -35,6 +27,13 @@ The repo includes the Dockerfile and docker-compose.yml necessary to set up the 
    ```
    docker-compose up
    ```
+6) Navigate to http://localhost:4000
+
+7) The database comes pre-populated with these user accounts created as part of the seed data -
+* Admin Account - u:admin p:Admin_123
+* User Accounts (u:user1 p:User1_123), (u:user2 p:User2_123)
+* New users can also be added using the sign-up page.
+
 ## Supports
 
 - This repo is powered by OWASP NodeGoat. We forked the repo and made chages as per our need. Thanks to OWASP for publishing awesome online resources, including NodeGoat

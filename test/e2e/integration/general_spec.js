@@ -49,7 +49,7 @@ describe('General behaviour', () => {
     cy.get('.user-dropdown a')
       .eq(0)
       .invoke('text')
-      .should('eq', ' Ro ProdSec Admin ')
+      .should('eq', ' Ro Retirement Planner Admin ')
 
     cy.get('.user-dropdown a')
       .eq(1)
